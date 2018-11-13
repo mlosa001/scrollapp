@@ -5,19 +5,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+    <!--android:id = "@id+my_layout"-->
 
-    <TextView
+    <!--<TextView-->
+        <!--android:id="@+id/my_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:autoLink="phone"-->
+        <!--android:textSize="75sp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:fontFamily="cursive"-->
+        <!--android:text= "www.aol.com"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/my_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:autoLink="phone"-->
+        <!--android:textSize="75sp"-->
+        <!--android:textAlignment="center"-->
+        <!--android:fontFamily="cursive"-->
+        <!--android:text= "www.aol.com"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintLeft_toLeftOf="parent"-->
+        <!--app:layout_constraintRight_toRightOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent" />-->
+
+    <!--<EditText-->
+        <!--android:id=@+id/my_layout"-->
+        <!--android:layout_width=""-->
+        <!--android:layout_height="" />-->
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:autoLink="web"
-        android:textSize="75sp"
-        android:textAlignment="center"
-        android:fontFamily="cursive"
-        android:text= "@"
+        android:src="@mipmap/ic_launcher"/>
+    <TextView
+        android:id="@+id/longText"
+        android:layout_width="wrap_content"
+        android:text="@string/lorem"
+        android:textSize="20sp"
+        android:layout_height="match_parent" />
 
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+</ScrollView>
 
 </android.support.constraint.ConstraintLayout>
